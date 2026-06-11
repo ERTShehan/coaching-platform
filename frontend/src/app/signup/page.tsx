@@ -51,7 +51,7 @@ export default function SignUp() {
   };
 
   return (
-    <div className="w-full max-w-sm md:max-w-4xl mx-auto flex flex-col md:flex-row bg-white rounded-[2.5rem] shadow-xl overflow-y-auto overflow-x-hidden h-full min-h-[600px] max-h-[90vh]">
+    <div className="w-full max-w-sm md:max-w-4xl mx-auto flex flex-col md:flex-row bg-white rounded-[2.5rem] shadow-xl overflow-y-auto overflow-x-hidden h-full min-h-96 max-h-[90vh]">
       
       <div className="hidden md:flex flex-col items-center justify-center p-8 w-1/2 bg-[#f4f5f0] border-r border-gray-200">
         <h2 className="text-3xl font-bold text-[#1a2e15] mb-4">Join Us Today</h2>
