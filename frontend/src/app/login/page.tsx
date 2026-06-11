@@ -19,7 +19,7 @@ export default function Login() {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:8080/api/auth/login", {
+      const response = await fetch("https://coaching-backend-k0np.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -44,7 +44,7 @@ export default function Login() {
   const handleGuestLogin = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch("http://localhost:8080/api/auth/guest", {
+      const response = await fetch("https://coaching-backend-k0np.onrender.com/api/auth/guest", {
         method: "POST",
       });
       const data = await response.json();

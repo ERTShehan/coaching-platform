@@ -19,7 +19,7 @@ export default function Dashboard() {
       }
 
       try {
-        const response = await fetch("http://localhost:8080/api/dashboard", {
+        const response = await fetch("https://coaching-backend-k0np.onrender.com/api/dashboard", {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,

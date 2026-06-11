@@ -29,7 +29,7 @@ export default function SignUp() {
     setSuccess("");
 
     try {
-      const response = await fetch("http://localhost:8080/api/auth/register", {
+      const response = await fetch("https://coaching-backend-k0np.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
