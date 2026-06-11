@@ -60,7 +60,7 @@ export default function SignUp() {
         </p>
       </div>
 
-      <div className="flex flex-col items-center justify-center p-8 md:w-1/2 bg-white w-full overflow-y-auto">
+      <div className="flex flex-col items-center py-10 px-8 md:w-1/2 bg-white w-full overflow-y-auto">
         <h2 className="text-2xl font-bold text-[#1a2e15] mb-8">Sign Up</h2>
         
         <form onSubmit={handleSignUp} className="w-full max-w-xs space-y-4">
